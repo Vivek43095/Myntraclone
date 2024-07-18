@@ -1,0 +1,46 @@
+/* .product-card{
+  width: calc(50%  - 16px);
+  margin: 8px;
+}
+.product-image{
+  width:100%;
+}
+.product-name{
+  font-size: 14px;
+  margin: 0;
+  font-weight: 400;
+  overflow: hidden;
+  color: #535766;
+}
+.pricewrapper{
+  display: flex;
+  align-items: flex-end;
+  margin: 10px 0 6px;
+}
+.price{
+   min-width: max-content;
+   font-size: 14px;
+   font-weight: 500;
+   margin: 0;
+   color: #282c3f;
+
+}
+.mrp{
+  margin:0 0 0 5px;
+  text-decoration: line-through;
+  color: #7e818c;
+  font-weight: 400px;
+  font-size: 12px;
+}
+.discount{
+  margin: 0 0 0 5px;
+  color: #ff905a;
+  font-weight:400;
+  font-size: 14px;
+}
+.Brand-name{
+  margin: 0 0 6px;
+  font-size: 16px;
+  font-weight: 500px;
+  overflow: hidden;
+} */

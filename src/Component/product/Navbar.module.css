@@ -1,0 +1,20 @@
+.Navbar{
+    background-color: black;
+    height: 60px;
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+.heading{
+    color: white;
+    margin: 3px;
+}
+.icon{
+   margin: 15px;
+   color:rgb(224, 208, 208);
+   /* color: white; */
+   font-size: 30px;
+   margin-left: 70%;
+} 

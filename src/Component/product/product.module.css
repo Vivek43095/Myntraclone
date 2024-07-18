@@ -1,0 +1,132 @@
+.Productimage{
+  width: 100%;
+}
+
+.Card{
+  margin: 8px;
+  width: calc(50% - 16px);
+}
+
+.Brand {
+  margin: 0 0 6px;
+  font-size: 16px;
+  font-weight: 500;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.Title {
+  font-size: 14px;
+  margin: 0;
+  font-weight: 400;
+  overflow: hidden;
+  color: #535766;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.PriceRapper {
+  display: flex;
+  align-items: flex-end;
+  margin: 10px 0 6px;
+}
+
+.Price {
+  min-width: max-content;
+  font-size: 14px;
+  color: #282c3f;
+  font-weight: 500;
+  margin: 0;
+  padding-right: 5px;
+}
+
+.MRP {
+  margin: 0 0 0 5px;
+  text-decoration: line-through;
+  font-weight: 400;
+  color: #7e818c;
+  font-size: 12px;
+  padding-right: 5px;
+}
+
+.Discount {
+  color: #ff905a;
+  font-weight: 400;
+  margin: 0 0 0 5px;
+  font-size: 14px;
+}
+
+@media (min-width: 992px){
+  .Card{
+    width: calc(25% - 16px);
+    margin: 8px;
+    display: inline-block;
+  }
+  .WishListWrapper{
+    width: 24%;
+    top: 72%;
+  }
+}
+
+.PreviewWrapper{
+  position: relative;
+}
+  
+  @media(min-width:768px)and
+     (max-width:992px){
+      .Card{
+        width: calc(50%-16%);
+        margin:8px 8px 20px 8px;
+        display: inline-block;
+      }
+      .WishListWrapper{
+        width: 50%;
+     }
+    }
+     
+     @media(min-width :576px)and
+     (max-width:768px){
+        .Card{
+          width: calc(50%-16%);
+          margin: 8px 8px 20px 8px;
+          display: inline-block;
+        }
+        .WishListWrapper{
+          width: 50%;
+          top: 71%;
+         }
+     }
+    
+     @media(max-width:768px){
+      .Card{
+        width: calc(100%-15%);
+        margin: 10px 10px 30px 10px;
+        display: inline-block;
+      }
+      .WishListWrapper{
+        width: 50%;
+        top: 71%;
+   }
+  }
+.WishListWrapper{
+  background-color: rgba(255, 255, 255,0.8);
+  text-align: center;
+  display: none;
+  position: relative;
+  top: 70%;
+  width: 100%;
+}
+.WishlistButtoni{
+  margin-right: 4px;
+}
+.WishlistButton{
+  font-size: 12px;
+  cursor: pointer;
+
+}
+
+.Card:hover .WishListWrapper{
+  display: block;
+  
+}
